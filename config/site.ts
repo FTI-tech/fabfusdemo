@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
+  name: "Fabric Fusion",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
@@ -9,55 +9,44 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
+      label: "All Products",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "Customize",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "Contact",
       href: "/blog",
     },
     {
-      label: "About",
+      label: "About Us",
       href: "/about",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
+      label: "Home",
       href: "/profile",
     },
     {
-      label: "Dashboard",
+      label: "All Products",
       href: "/dashboard",
     },
     {
-      label: "Projects",
+      label: "Customize",
       href: "/projects",
     },
     {
-      label: "Team",
+      label: "Contact",
       href: "/team",
     },
     {
-      label: "Calendar",
+      label: "About Us",
       href: "/calendar",
     },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
+  
   ],
   links: {
     github: "https://github.com/heroui-inc/heroui",
