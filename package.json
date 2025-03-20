@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
   },
   "dependencies": {
@@ -27,9 +27,9 @@
     "lucide-react": "^0.477.0",
     "next": "15.0.4",
     "next-themes": "^0.4.4",
-    "react": "^19.0.0",
+    "react": "^18.3.1",
     "react-colorful": "^5.6.1",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.3.1",
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
